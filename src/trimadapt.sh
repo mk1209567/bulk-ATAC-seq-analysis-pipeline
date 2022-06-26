@@ -6,6 +6,7 @@
 #SBATCH --mem 16G
 #SBATCH --time 00-03:00:00
 module load trimmomatic
+#trimming adaptor
 readPath="../data"
 read="sample"
 java -jar /gpfs/share/apps/trimmomatic/0.36/trimmomatic-0.36.jar PE -phred33 \
