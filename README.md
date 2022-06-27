@@ -36,4 +36,7 @@ Following is the step to do ATAC-seq analysis and the corresponding script name.
 - Annotation: finding genomic features near the peaks-ChIPseeker.
 - Motif finding: HOMER
 
+## Final Notes:
+As an associate Bioinformatician, I continue to learn and improve my biofiormatics pipeline. While learning, I do find it useful when reading others step-by-step pipeline instead of using the one-step pipeline. I wish my documentation could also help others better understand the key component of sequencing analysis. Feel free to contact me about any questions or suggestions.
+
 ## References:
