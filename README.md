@@ -2,7 +2,8 @@
 Analysis pipeline for bulk-ATAC-seq assay
 
 ## Introduction:
-This is an analysis workflow for processing pair-ended bulk ATAC-seq data. It contains multiple shell scripts that can be run under Slurm managment system. Each script represents a key step in ATACseq analysis workflow. Currently, this pipeline conduct the process step by step, which provide a easy way to understand the analysis. It will continue to improve and incorporate workflow management system like Snakemake in the future.
+- This is an analysis workflow for processing pair-ended bulk ATAC-seq data. It contains multiple shell scripts that can be run under Slurm managment system. Each script represents a key step in ATACseq analysis workflow. Currently, this pipeline conduct the process step by step, which provide a easy way to understand the analysis. It will continue to improve and incorporate workflow management system like Snakemake in the future.
+- I also provide the structure of how I store input, output, and the intermediate data. Those files within are for display purpose only. They are empty files just to show what's the workflow and output going to be like when following this pipeline.
 
 ## Requirement
 1. [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
