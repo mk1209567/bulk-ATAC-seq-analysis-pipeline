@@ -10,5 +10,5 @@ module load genrich
 sample='sample'
 Genrich -t ../output/${sample}.sortn.filtered.bam -o ../output/${sample}.sortn.filtered.narrowPeak \
                                                  -b ../output/${sample}.sortn.filtered.bed \
-                                                 -j -y -r -e chrM -v
+                                                 -j -y -r -e chrM -v 2> ../log/genrich/${sample}_genrich.log
 echo "genrich peakcalling: done"
