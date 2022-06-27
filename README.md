@@ -34,3 +34,5 @@ Following is the step to do ATAC-seq analysis and the corresponding script name.
 - Comparing peak files with bedtools: bedtools intersect and bedtools substract.
 - Annotation: finding genomic features near the peaks-ChIPseeker.
 - Motif finding: HOMER
+
+## References:
