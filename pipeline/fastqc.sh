@@ -6,7 +6,9 @@
 #SBATCH --mem 16G
 #SBATCH --time 00-03:00:00
 module load fastqc
-#QC on paired-end sequencing sample, output summary in fastQC/ folder
-fastqc -o fastQC -t 2 \
-          sample.R1.fastq.gz \
-          sample.R2.fastq.gz
+#change the $readPaht and $sample to your desired folder and the fastq file names
+readPath="../data"
+sample='sample'
+fastqc -o ../fastQC -t 2 \
+        $readPath/${sample}_R1.fastq.gz \
+        $readPath/${sample}_R2.fastq.gz

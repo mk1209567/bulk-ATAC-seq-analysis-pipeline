@@ -6,13 +6,13 @@
 #SBATCH --mem 16G
 #SBATCH --time 00-03:00:00
 module load trimmomatic
-#trimming adaptor
+#change the $readPaht and $sample to your desired folder and the fastq file names
 readPath="../data"
-read="sample"
+sample='sample'
 java -jar /gpfs/share/apps/trimmomatic/0.36/trimmomatic-0.36.jar PE -phred33 \
-                    ${readPath}/${read}_R1.fastq.gz \
-                    ${readPath}/${read}_R2.fastq.gz \
-                    ${readPath}/${read}_R1.paired.fastq.gz ${readPath}/${read}_R1.unpaired.fastq.gz \
-                    ${readPath}/${read}_R2.paired.fastq.gz ${readPath}/${read}_R2.unpaired.fastq.gz \
+                    ${readPath}/${sample}_R1.fastq.gz \
+                    ${readPath}/${sample}_R2.fastq.gz \
+                    ${readPath}/${sample}_R1.paired.fastq.gz ${readPath}/${sample}_R1.unpaired.fastq.gz \
+                    ${readPath}/${sample}_R2.paired.fastq.gz ${readPath}/${sample}_R2.unpaired.fastq.gz \
                     ILLUMINACLIP:/gpfs/share/apps/trimmomatic/0.36/adapters/NexteraPE-PE.fa:2:30:10 \
-                    LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36 > ../log/trim/${read}_trim.log 2>&1
+                    LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36 > ../log/trim/${sample}_trim.log 2>&1
