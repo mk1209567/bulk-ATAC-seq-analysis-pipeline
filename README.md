@@ -16,7 +16,7 @@ If you are using Slurm, you probably could use **module load** to activate these
 If not, you could download these tools from their source. After installed, make sure you change the direction of your tools correctly in each script.
 
 ## Steps
-Following is the step to do ATAC-seq analysis and the corresponding script name.
+Following is the step to do ATAC-seq analysis and the corresponding script name. The scripts are all under *pipeline* folder.
 ### 1. FastQC (fastqc.sh)
 - FastQC is a commly used tools to generate quality metrics for your raw sequence data.
 ### 2. Remove adaptor (trimadapt.sh)
