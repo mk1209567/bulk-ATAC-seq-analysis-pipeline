@@ -36,7 +36,13 @@ Following is the step to do ATAC-seq analysis and the corresponding script name.
 - Annotation: finding genomic features near the peaks-ChIPseeker.
 - Motif finding: HOMER
 
-## Final Notes:
-As an associate Bioinformatician, I continue to learn and improve my biofiormatics pipeline. While learning, I do find it useful when reading others step-by-step pipeline instead of using the one-step pipeline. I wish my documentation could also help others better understand the key component of sequencing analysis. Feel free to contact me about any questions or suggestions.
+## Notes:
+As an associate Bioinformatician, I do find it useful when reading others step-by-step pipeline instead of using the one-step pipeline. I wish my documentation could also help others better understand the key component of sequencing analysis. Feel free to contact me about any questions or suggestions.
 
 ## References:
+1. Andrews, S. (2010). FastQC:  A Quality Control Tool for High Throughput Sequence Data
+2. Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data.
+3. Langmead B, Salzberg S. Fast gapped-read alignment with Bowtie 2. Nature Methods. 2012, 9:357-359.
+4. Danecek, P. et al. (2021). Twelve years of SAMtools and BCFtools. GigaScience, 10(2). https://doi.org/10.1093/gigascience/giab008
+5. Gaspar, J. M.(n.d.). GitHub - jsh58/Genrich: Detecting sites of genomic enrichment. GitHub. https://github.com/jsh58/Genrich
+6. Gaspar, J. M. (2019, January 18). ATAC-seq Guidelines. Harvard FAS Informatics. https://informatics.fas.harvard.edu/atac-seq-guidelines.html
